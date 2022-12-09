@@ -298,6 +298,7 @@ export default class ImaPlayer {
 
     // Set ad request default settings
     adsRequest.adTagUrl = this._o.tag
+    adsRequest.adsResponse = this._o.vast_xml
     adsRequest.linearAdSlotWidth = this._o.video.offsetWidth
     adsRequest.linearAdSlotHeight = this._o.video.offsetHeight
     adsRequest.nonLinearAdSlotWidth = this._o.video.offsetWidth
